@@ -14,6 +14,8 @@ export default function HomeHero({ categories }: { categories: Category[] }) {
         <div className="absolute inset-0 bg-black" />
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]" />
 
+
+        
         {/* Animated Orbs */}
         <motion.div
           animate={{
